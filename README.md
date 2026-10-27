@@ -7,7 +7,8 @@ Differential Evolution as in HW8, the professor's `std_MC` Monte Carlo loop).
 
 ## How to open the app
 
-**Online, nothing to install:** open **APP_LINK_HERE** on a computer or a phone.
+**Online, nothing to install:** open **https://option-toolkit-option-toolkit-paul-martin.streamlit.app/**
+on a computer or a phone.
 No account or sign-in is needed.
 
 - If the page says *"This app has gone to sleep"*, click **"Yes, get this app back up!"** and wait about

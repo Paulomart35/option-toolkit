@@ -6,8 +6,10 @@ Each entry: what was ambiguous or blocked → what was chosen and why.
 - **venv location.** `python -m venv .venv` inside the project failed on this machine: the project path is
   ~200 characters long and Windows long-path support is off, so pip could not unpack wheels. The venv was
   created at `C:\Users\Xefi\.venvs\optkit` instead. On another machine `.venv` in the project works normally.
-- **No git commits.** Git is not installed on this machine, so the "commit after each module" step was skipped.
-  `.gitignore` is ready; run `git init && git add . && git commit -m "Option Toolkit"` once git is available.
+- **Git history.** Git was not installed during the build, so the "commit after each module" step was
+  skipped; the finished app was committed in one go once Git was installed.
+- **Not published:** `docs/` (course material, graded homework notebooks) and `CLAUDE.md` (build brief) stay
+  local via `.gitignore`; the app does not use them.
 - **Streamlit 1.66.** `use_container_width=True` is replaced by its successor `width="stretch"` (same
   full-width behaviour, no deprecation warnings).
 
