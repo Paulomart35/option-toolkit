@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.pdf
+
+# Kept local, not published: course material, graded homework notebooks and the AI build brief
+docs/
+CLAUDE.md
